@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.top-bar {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center; 
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.top-bar p {
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333;
+    } 
+
+
+.image-section {
+    width: 100%; 
+    overflow: hidden; 
+    margin-bottom: 0; 
+}
+
+.image-section img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+.wall-image img { 
+    height: 600px; 
+    object-fit: cover;
+    object-position: top;
+}
+    
+
+.glass-building-image img {
+    height: 600px; 
+    object-fit: cover;
+    object-position: top;
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        left: 10%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    article{
+        padding-right: 30px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        writing-mode: vertical-lr;
+        margin-right: 15px;
+    }
+
+    img {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+  

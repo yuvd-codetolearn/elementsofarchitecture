@@ -1,0 +1,70 @@
+* {
+  padding: 100;
+  margin: 100;
+  word-break: keep-all;
+ }
+
+head {
+  text-align: center;
+  border: 5px black;
+  width: 33%;
+  justify-content: center;
+}
+
+h1,
+h2 {
+    font-size: 16px;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  border: 1px white;
+  width: 33%;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+p {
+    font-size: 16px;
+}
+
+  @media screen and (max-width: 1000px) {
+    section {
+        left: 10%;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    article{
+        padding-right: 30px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        writing-mode: vertical-lr;
+        margin-right: 15px;
+    }
+
+    img {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+}
