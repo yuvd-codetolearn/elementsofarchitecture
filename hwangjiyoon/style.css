@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 16px;
+}
+
+p{
+  text-align: center;
+}
+
+section {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+article {
+  width: 30%;
+  text-align: center;
+}
+
+figcaption {
+  margin: 10px 0 50px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  section {
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+  }
+}

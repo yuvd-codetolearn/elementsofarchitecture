@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  height: 200px; 
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+h2{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+a {
+  color: black;
+}
+
+.top-left{
+  background-color: #eef1f1;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.top-right{
+  background-color: #e4e8eb;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.bottom-left{
+  background-color: #ccd0db;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.bottom-right{
+  background-color: #acbcc2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.center-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.epoxy .top-left{
+  background-color: #eff0f0;
+}
+
+.epoxy .top-right{
+  background-color: #dddede;
+}
+
+.epoxy .bottom-left{
+  background-color: #c4c4c4;
+}
+
+.epoxy .bottom-right{
+  background-color: #adadad;
+}
+
+.stone .top-left{
+  background-color: #edf1ef;
+}
+
+.stone .top-right{
+  background-color: #dce4e4;
+}
+
+.stone .bottom-left{
+  background-color: #c5d7d0;
+}
+
+.stone .bottom-right{
+  background-color: #abc3c1;
+}
+
+.marble .top-left{
+  background-color: #f2f0ec;
+}
+
+.marble .top-right{
+  background-color: #e0dcd1;
+}
+
+.marble .bottom-left{
+  background-color: #d6cbbc;
+}
+
+.marble .bottom-right{
+  background-color: #c3a98d;
+}
+
+.manhole .top-left{
+  background-color: #f5ece9;
+}
+
+.manhole .top-right{
+  background-color: #f6ddd4;
+}
+
+.manhole .bottom-left{
+  background-color: #ead5d1;
+}
+
+.manhole .bottom-right{
+  background-color: #debab4;
+}
+
+.brick .top-left{
+  background-color: #FDF5E6;
+}
+
+.brick .top-right{
+  background-color: #f5e1c6;
+}
+
+.brick .bottom-left{
+  background-color: #f1d0b6;
+}
+
+.brick .bottom-right{
+  background-color: #edb791;
+}
+
+.wooden .top-left{
+  background-color: #f4e9d1;
+}
+
+.wooden .top-right{
+  background-color: #e8ddc4;
+}
+
+.wooden .bottom-left{
+  background-color: #d4bf95;
+}
+
+.wooden .bottom-right{
+  background-color: #ccb27f;
+}
+
+.block .top-left{
+  background-color: #f4f6ee;
+}
+
+.block .top-right{
+  background-color: #dee1d0;
+}
+
+.block .bottom-left{
+  background-color: #c2c8b6;
+}
+
+.block .bottom-right{
+  background-color: #aab0a0;
+}
+
+.floor .top-left{
+  background-color: #f8efdd;
+}
+
+.floor .top-right{
+  background-color: #e1ceac;
+}
+
+.floor .bottom-left{
+  background-color: #d1b293;
+}
+
+.floor .bottom-right{
+  background-color: #b59677;
+}
