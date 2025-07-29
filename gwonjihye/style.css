@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #B9B8B0;
+	-ms-overflow-style: none; 
+}
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 20px;
+	color: white;
+	font-size: 10px;
+	font-family: "pretendard", sans-serif;
+}
+
+.door1 p {
+	position: fixed;
+	top: 0;
+	left: 20%;
+	margin: 20px;
+	font-size: 16px;
+	color: white;
+	font-family: "pretendard", sans-serif;
+	z-index: 1000;
+}
+
+.door2 p {
+	position: fixed;
+	top: 0;
+	left: 40%;
+	margin: 20px;
+	font-size: 16px;
+	color: white;
+	font-family: "pretendard", sans-serif;
+	z-index: 1000;
+}
+
+.door3 p {
+	position: fixed;
+	top: 0;
+	left: 60%;
+	margin: 20px;
+	font-size: 16px;
+	color: white;
+	font-family: "pretendard", sans-serif;
+	z-index: 1000;
+}
+
+.door4 p {
+	position: fixed;
+	top: 0;
+	left: 80%;
+	margin: 20px;
+	font-size: 16px;
+	color: white;
+	font-family: "pretendard", sans-serif;
+	z-index: 1000;
+}
+
+h1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 20px;
+	color: white;
+	font-size: 16px;
+	font-family: "pretendard", sans-serif;
+	z-index: 999;
+}
+
+.door-row {
+	display: flex;
+/*	gap: 20px;*/
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.door img {
+	height: auto;
+	display: block;
+	width: 250px;
+}
+
+/*.door img:hover {
+	transform: scale(1.1);
+	transition: all 0.3s ease-in;
+}*/
