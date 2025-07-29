@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: keep-all;
+}
+
+body {
+  font-family: 'Noto Serif KR', serif;
+  position: relative;
+  height: 100%;
+
+}
+
+.background-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position: fixed;
+  bottom: 420px;
+  right: 800px;
+  font-size: 28px;
+  color: black;
+}
+
+.text {
+  position: fixed;
+  bottom: 100px;
+  right: 800px;
+  font-size: 15px;
+  line-height: 1.7;
+  width: 200px;
+  display: inline-block;
+  color: black;
+}
+
+.text1 {
+  position: fixed;
+  bottom: 100px;
+  right: 600px;
+  font-size: 15px;
+  line-height: 1.7;
+  width: 200px;
+  display: inline-block;
+  color: black;
+}
+
+.text2 {
+  position: fixed;
+  bottom: 100px;
+  right: 400px;
+  font-size: 15px;
+  line-height: 1.7;
+  width: 200px;
+  display: inline-block;
+  color: black;
+}
+
+
+.text3 {
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
+  font-size: 15px;
+  line-height: 1.7;
+  width: 200px;
+  display: inline-block;
+  color: black;
+}
+
+.text4 {
+  position: fixed;
+  bottom: 100px;
+  right: 0px;
+  font-size: 15px;
+  line-height: 1.7;
+  width: 200px;
+  display: inline-block;
+  color: black;
+}
+
+.text a, 
+.text1 a,
+.text2 a,
+.text3 a,
+.text4 a {
+  display: block;
+  margin-top: 20px;
+  color:black;
+
+}
+@media screen and (max-aspect-ratio: 4/3) {
+
+  .background-image {
+    width: auto;
+    height: 100%;
+  }
