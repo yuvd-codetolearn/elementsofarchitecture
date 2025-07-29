@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    word-break: keep-all;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+
+}
+
+body{
+    background-color: #41413e;
+    overflow: hidden;
+}
+
+h1 {
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+}
+
+img{
+    position: absolute;
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+li { 
+   display: flex;
+}
+
+p {
+    line-height: 1.5;
+}
+.text1 { 
+    font-size: 16px;
+    position: absolute;
+    top:20%;
+    left: 0%;
+    max-width: 100%;
+    width:23%;
+    Height:20%;
+} 
+.text1-1{ 
+    position: absolute;
+    top:50%;
+    left: 0%;
+    max-width: 100%;
+    width:23%;
+    Height:20%;
+
+} 
+.img1{
+    position: absolute;
+    top: 25%;
+    bottom: 0%;
+   left: 0%;
+    width:23%;
+    Height:20%;
+}
+
+.text2 { 
+    font-size: 16px;
+    position: absolute;
+    top:30%;
+    left: 26%;
+    max-width: 100%;
+    width:30%;
+    Height:25%;
+
+    } 
+.text2-1{ 
+
+    position: absolute;
+    top:60%;
+    left: 26%;
+    max-width: 100%;
+    width:23%;
+    Height:20%;
+
+    } 
+    .img2{
+    position: absolute;
+    bottom: 0%;
+    top:35%;
+    left: 26%;
+    width:23%;
+    Height:20%;
+
+}
+    .text3 { 
+    font-size: 16px;
+    position: absolute;
+    top:40%;
+    left: 52%;
+    max-width: 100%;
+    width:100%;
+    Height:20%;
+
+    } 
+.text3-1{ 
+    position: absolute;
+    top:70%;
+    left: 52%;
+    max-width: 100%;
+    width:23%;
+    Height:20%;
+    } 
+
+.img3{
+    position: absolute;
+    top: 45%;
+    bottom: 0%;
+   left: 52%;
+    width:23%;
+    Height:20%;
+
+}
+.text4 { 
+    font-size: 16px;
+    position: absolute;
+    top:50%;
+    left: 78%;
+    max-width: 100%;
+    width:100%;
+    Height:25%;
+
+    } 
+.text4-1{ 
+/*    font-size: clamp(10px, 5vw,20px);*/
+    position: absolute;
+    top:80%;
+    left: 78%;
+    max-width: 100%;
+    width:23%;
+    Height:20%;
+
+    } 
+    .img4{
+    position: absolute;
+    top: 55%;
+    bottom: 0%;
+   left: 78%;
+    width:23%;
+    Height:20%;
+
+}
+@media screen and (max-width: 1000px){
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+/*.text1 { 
+    font-size: 16px;
+    position: absolute;
+    top:25%;
+    left: 5%;
+    max-width: 100%;
+    width:43%;
+    Height:25%;
+
+    } 
+.text1-1{ 
+    position: absolute;
+    top:60%;
+    left: 5%;
+    max-width: 100%;
+    width:43%;
+    Height:25%;
+
+    } 
+    .img1{
+    position: absolute;
+    top: 30%;
+    bottom: 0%;
+   left: 5%;
+    width:43%;
+    Height:25%;
+}
+
+.text2 { 
+    font-size: 16px;
+    position: absolute;
+    top:35%;
+    left: 53%;
+    max-width: 100%;
+    width:40%;
+    Height:25%;
+
+    } 
+.text2-1{ 
+
+    position: absolute;
+    top:70%;
+    left: 53%;
+    max-width: 100%;
+    width:43%;
+    Height:25%;
+
+    } 
+    .img2{
+    position: absolute;
+    bottom: 0%;
+    top:40%;
+    left: 53%;
+    width:43%;
+    Height:25%;
+
+}
+    .text3 { 
+    font-size: 16px;
+    position: absolute;
+    top:40%;
+    left: 101%;
+    max-width: 100%;
+    width:43%;
+    Height:25%;
+
+    } 
+.text3-1{ 
+    position: absolute;
+    top:75%;
+    left: 101%;
+    max-width: 103%;
+    width:43%;
+    Height:25%;
+    } 
+
+.img3{
+    position: absolute;
+    top: 45%;
+    bottom: 0%;
+   left: 101%;
+    width:43%;
+    Height:25%;
+
+}
+.text4 { 
+    font-size: 16px;
+    position: absolute;
+    top:50%;
+    left: 149%;
+    max-width: 100%;
+    width:43%;
+    Height:25%;
+
+    } 
+.text4-1{ 
+    position: absolute;
+    top:85%;
+    left: 149%;
+    max-width: 100%;
+    width:43%;
+    Height:25%;
+
+    } 
+    .img4{
+    position: absolute;
+    top: 55%;
+    bottom: 0%;
+   left: 149%;
+    width:43%;
+    Height:25%;
+
+}*/
+}

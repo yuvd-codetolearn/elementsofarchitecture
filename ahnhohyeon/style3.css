@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.img1 {
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+	left: 0%;
+    width:25%;
+    Height:100%;
+}
+.img2 {
+	position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 25%;
+    width:25%;
+    Height:100%;
+}
+.img3 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 50%;
+    width:25%;
+    Height:100%;
+}
+.img4 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 75%;
+    width:25%;
+    Height:100%;
+}
+@media screen and (max-width: 800px){
+
+.img1 {
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0%;
+    width:50%;
+    Height:100%;
+}
+.img2 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 50%;
+    width:50%;
+    Height:100%;
+}
+.img3 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 100%;
+    width:50%;
+    Height:100%;
+}
+.img4 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 150%;
+    width:50%;
+    Height:100%;
+}
+}
