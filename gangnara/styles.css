@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+    padding: ;
+}
+nav {
+    font-size: 1rem;
+    color: #ccc;
+    padding: 30px;
+}
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+    text-align: ;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+img:hover {
+transform: scale(1) rotate(-5deg);
+transition: all 0.3s ease-in;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+@media screen and (max-width: 1000px){
+    
+}
