@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+}
+
+body {
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  height: 90px;
+  border: 1px solid;
+  background-color: black;
+  display: flex;
+}
+
+h1 {
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Humanities {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200%; 
+}
+
+.image,
+.textbox {
+  padding-top: 50px;
+}
+
+.image {
+  width: 50%;
+  background: linear-gradient(black, #0a0907, #395251, #576e6b, #bed3ce, white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textbox {
+  width: 50%;
+  height: auto;
+  background: linear-gradient(black, #0a0907, #395251, #576e6b, #bed3ce, white);
+  color: white;
+}
+
+img {
+  width: 60%;
+  height: 150%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 5%;
+}
+
+.textbox h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.textbox p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 48px;
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .Humanities {
+    flex-direction: column;
+  }
+  .image, .textbox {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    width: 70%;
+    height: auto;
+  }
+}
+
+.right-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.right-button a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}

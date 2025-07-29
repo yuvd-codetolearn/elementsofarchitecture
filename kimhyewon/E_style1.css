@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  word-break: keep-all;
+}
+
+h1 {
+  position: absolute;
+  top: 35px;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+body {
+  background-color: #ada78f;
+}
+
+
+.Electricity1,
+.Electricity2,
+.Electricity3 {
+  width: 20%;
+  padding: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+img {
+  width: 450px;
+  height: auto;
+ 
+}
+
+p {
+  line-height: 1.5;
+}
+
+@media screen and (max-width : 1500px){
+   img {
+    width: 100%;
+    height: auto;
+}
+}
