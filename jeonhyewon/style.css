@@ -1,0 +1,101 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	overflow: hidden;
+}
+
+img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: auto;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.definition {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 100%;
+}
+.corridor1 {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 25%;
+	height: 100%;
+}
+.corridor2 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 25%;
+	height: 100%;
+}
+.corridor3 {
+	position: absolute;
+	top: 0;
+	left: 75%;
+	width: 25%;
+	height: 100%;
+}
+@media screen and (max-width: 1000px) {
+	figure {
+		height: 100%;
+		width: 50%;
+	}
+
+	img {
+		width: auto;
+		height: 100%;
+	}
+
+	.definition{
+		width: 50%;
+		position: absolute;
+		top: 0;
+		left:0;
+	}
+	.corridor1{
+		width: 50%;
+		position: absolute;
+		top: 0;
+		left:50%;
+	}
+	.corridor2{
+		width: 50%;
+		position: absolute;
+		top: 50%;
+		left:0;
+	}
+	.corridor3{
+		width: 50%;
+		position: absolute;
+		top: 50%;
+		left:50%;
+		right: 0;
+	}
+
+	h1{
+		position: absolute;
+		top: 20px;
+	}
+}
