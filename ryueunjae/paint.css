@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.paint {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.paint img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+.text-box {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 80%;
+  color: white;
+  padding: 10px;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  p {
+  font-size: 0.8rem;
+}
+}
