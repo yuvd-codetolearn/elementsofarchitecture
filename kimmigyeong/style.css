@@ -1,0 +1,178 @@
+* {
+	padding: 0;
+	margin: 0;
+  font-family: sans-serif;
+  word-break: keep-all;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.highlight {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/*body {
+  overflow-y: hidden;
+}*/
+
+.title {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100px;
+  font-size: 16px;
+  color: black;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+nav img {
+  width: 80px;
+  height: 80px;
+}
+
+nav li {
+	padding: 50px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+}
+
+li:hover{
+	text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+ul {
+   display: flex;
+   justify-content: space-evenly;
+   list-style: none;
+}
+
+section {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%);
+  height: calc(100% - 100px);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mean {
+  align-items: flex-start;
+}
+
+.mean figure {
+  margin-bottom: 40px;
+}
+ol li {
+  list-style: none;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+.place figure {
+  padding: 5px;
+}
+
+.ele h2 {
+  padding: 10px;
+}
+
+.ele p {
+  width: 300px;
+}
+
+figure {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;      
+  right: 10px;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.place {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.place figure {
+  width: 48%;
+}
+
+.ele figure{
+  display: flex;
+}
+
+.ele img {
+  width: 50%;
+}
+
+.issue p {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  nav {
+    font-size: 16px;
+    gap: 8px;
+  }
+
+  nav img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    font-size: 10px;
+    gap: 5px;
+  }
+
+  nav img {
+    width: 40px;
+    height: 40px;
+  }
+}
