@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.a {
+  width: 100%;
+  height: auto;
+}
+
+.b {
+  width: 60%;
+  height: auto;
+}
+
+.c {
+  width: 30%;
+  height: auto;
+}
+
+p {
+  z-index: 6;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+
+.ment {
+  font-size: 16px;
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%,0);
+  text-align: center;
+  line-height: 1.4;
+}
