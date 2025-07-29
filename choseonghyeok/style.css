@@ -1,0 +1,58 @@
+* {
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+figcaption{
+	border: 1px solid white;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+nav{
+	display: inline-grid;
+	width: 130px;
+	top: 50px;
+	left: 50px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.color1{
+	background: white;
+}
+
+.nasun {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+}
+
+@media screen and (max-width: 1000px) {
+	.nasun {
+		width: auto;
+		height: 50%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+}
