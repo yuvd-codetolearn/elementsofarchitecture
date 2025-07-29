@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: ghostwhite;
+  font-family: 'Pretendard Variable', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+h1{
+  position:absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+nav a{
+  text-decoration-line: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  text-decoration-line:none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+   video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1; 
+    }
+
+     .content {
+      position: relative;
+      z-index: 1; 
+      text-align: center;
+      top: 30%;
+    }
+
+
+
+/* 사진 + 글자  */
+
+/*.img-text {
+  text-align: center;
+  width: 600px;
+}
+
+.img-text p {
+  position: relative;
+  top: 40px; 
+  left: 0; 
+  margin: 0 auto;
+  width: 100%;
+  color: ghostwhite;
+  font-size: 24px;
+  pointer-events: none; 
+}
+
+.img-text img {
+  width: 100%;
+  height: auto;
+  display: block;
+}*/
+
+/* footer */
+
+footer{
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  font-size: 13px;
+}
