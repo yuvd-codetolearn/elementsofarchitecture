@@ -4,6 +4,10 @@
   word-break: keep-all;
 }
 
+body {
+  overflow: hidden;
+}
+
 figure {
   position: relative;
   width: 100vw;
