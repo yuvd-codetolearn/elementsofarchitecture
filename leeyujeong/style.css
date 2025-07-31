@@ -92,3 +92,17 @@ footer{
   left: 30px;
   font-size: 13px;
 }
+
+
+@media screen and (max-width: 1000px) {
+  nav {
+    position: absolute;
+    top: 130px;
+    left: 30px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
