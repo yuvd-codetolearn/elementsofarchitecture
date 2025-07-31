@@ -1,6 +1,35 @@
 * {
 	margin: 0;
 	padding: 0;
+	word-break: keep-all;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	color: white;
+	width: 20vw;
+	padding: 10px;
+}
+
+header {
+	display: inline-flex;
+}
+
+ul {
+	display: flex;
+	display: 80vw;
+}
+
+li {
+	list-style: none;
+	width: 20vw;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
 }
 
 body {
@@ -12,6 +41,14 @@ body::-webkit-scrollbar {
 	display: none; 
 } 
 
+section {
+	margin-top: 50px;
+}
+
+article {
+	padding: 5px;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
@@ -22,7 +59,7 @@ footer {
 	font-family: "pretendard", sans-serif;
 }
 
-.door1 p {
+/*.door1 p {
 	position: fixed;
 	top: 0;
 	left: 20%;
@@ -64,9 +101,9 @@ footer {
 	color: white;
 	font-family: "pretendard", sans-serif;
 	z-index: 1000;
-}
+}*/
 
-h1 {
+/*h1 {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -76,7 +113,7 @@ h1 {
 	font-family: "pretendard", sans-serif;
 	z-index: 999;
 }
-
+*/
 .door-row {
 	display: flex;
 /*	gap: 20px;*/
