@@ -26,6 +26,10 @@ h1 {
   text-shadow: 0 0 4px 4px black;
 }
 
+nav {
+  width: 100%;
+}
+
 .overlay {
   position: relative;
 }
@@ -93,4 +97,20 @@ h1 {
   width: 100%;
   display: block;
   bottom: 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+h1 {
+  right: -20px;
+}
+
+.tilted-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+}
+
 }
