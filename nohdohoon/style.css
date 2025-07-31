@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  word-break: keep-all;
+}
+
+p {
+  line-height: 1.5;
+}
+.header {
+  position: relative;
+  height: 300px;
+  background: url('toilet1.png') no-repeat center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 52, 102, 0.6); /* 비침 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.text-box {
+  z-index: 1;
+}
+
+.text-box h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.text-box p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.content {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.toilet-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.toilet-info img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+.bottom-bar {
+  height: 40px;
+  background-color: #003466;
+}

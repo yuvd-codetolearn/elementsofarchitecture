@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: keep-all;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px;
+  color: #003466;
+  background: url('t.jpg') no-repeat center/cover;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* 흐림 처리 */
+  z-index: 0;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.nav {
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #003466;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro h2 {
+  font-size: 2em;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+}
