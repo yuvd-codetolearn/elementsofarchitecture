@@ -10,8 +10,8 @@ body {
 
 figure {
   position: relative;
-  width: 100svw;
-  height: 100svh;
+  width: 100%;
+  height: 100%;
 }
 
 img {
@@ -24,32 +24,32 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 25svw;
-  height: 100svh;
+  width: 25%;
+  height: 100%;
 }
 
 .b {
   position: absolute;
   top: 0;
-  left: 25svw;
-  width: 25svw;
-  height: 100svh;
+  left: 25%;
+  width: 25%;
+  height: 100%;
 }
 
 .c {
   position: absolute;
   top: 0;
-  left: 50svw;
-  width: 25svw;
-  height: 100svh;
+  left: 50%;
+  width: 25%;
+  height: 100%;
 }
 
 .d {
   position: absolute;
   top: 0;
-  left: 75svw;
-  width: 25svw;
-  height: 100svh;
+  left: 75%;
+  width: 25%;
+  height: 100%;
 }
 
 p {
@@ -75,44 +75,45 @@ p {
   body {
     display: flex;
     flex-wrap: wrap;
-    width: 100svw;
-    height: 100svh;
+    width: 100%;
+    height: 100%;
   }
 
   .a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50svw;
-    height: 70svh;
+    width: 50%;
+    height: 50%;
   }
   .b {
     position: absolute;
     top: 0;
-    left: 50svw;
-    width: 50svw;
-    height: 70svh;
+    left: 50%;
+    width: 50%;
+    height: 50%;
   }
   .c {
     position: absolute;
-    top: 70svh;
-    left: 0svw;
-    width: 50svw;
-    height: 70svh;
+    top: 50%;
+    left: 0%;
+    width: 50%;
+    height: 50%;
   }
   .d {
     position: absolute;
-    top: 70svh;
-    left: 50svw;
-    width: 50svw;
-    height: 70svh;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
   }
   .ment {
     font-size: 16px;
     position: absolute;
-    top: 67svh;
+    width: 90%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, -50%);
 
   }
 
