@@ -109,7 +109,7 @@ h1 {
 .tilted-nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 0;
 }
 
