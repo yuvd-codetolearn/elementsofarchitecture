@@ -24,17 +24,15 @@ nav {
 	left: 0;
 	width: 100%;
 	z-index: 2;
-	padding: 20px;
 	background: linear-gradient(to top, rgba(80, 80, 80, 0.75), rgba(80, 80, 80, 0));
 }
 
 ul {
 /*	border: 1px solid;*/
-	display: flex;
+	display: inline-flex;
 	padding: 0px;
 	margin: 0px;
-	width: 100%
-/*	justify-content: space-evenly;*/
+	width: 100%;
 }
 
 li {
@@ -42,10 +40,10 @@ li {
 	text-align: center;
 /*	border: 1px solid;*/
 	list-style: none;
-	font-size: 18px;
-	color: white;
-/*	border: 1px solid black;*/
-	
+	font-size: 16px;
+	color: white;	
+	width: 20%;
+	padding: 20px;
 }
 
 footer {
@@ -74,6 +72,23 @@ a {
 } 
 
 @media screen and (max-width:800px) {
-	li{
-		padding: 10px;
+
+ul {
+/*	border: 1px solid;*/
+	display: inline-flex;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+li {
+	flex: 1;
+	text-align: center;
+/*	border: 1px solid;*/
+	list-style: none;
+	font-size: 16px;
+	color: white;	
+	width: 20%;
+	word-break: break-all;
+}
 }
