@@ -5,13 +5,14 @@
     word-break: keep-all;
 }
 
-.image{
+.image {
     width: 100%;
     height: 50vh;
     display: flex;
     justify-content: center; 
     overflow-x: auto;
 }
+
 article{
     display: flex;
     flex-wrap: nowrap;
@@ -32,10 +33,12 @@ img {
     width: auto;  
     overflow-x: auto;   
 }
+
 img:hover{
     transform: scale(1.1);
     transition: all 0.4s ease-in;
 }
+
 h1{
     display: flex;
     justify-content: center;  
@@ -44,6 +47,7 @@ h1{
     font-family: sans-serif;
     margin-right: 5px;
 }
+
 h2{
     display: flex;
     justify-content: center;  
@@ -52,11 +56,13 @@ h2{
     font-family: sans-serif;
     margin-left: 5px;
 }
+
 .info {
   display: inline-flex;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
+
 .info article {
   width: 25%;
   height: auto;
@@ -80,21 +86,34 @@ a {
     font-family: sans-serif;
     color: black;
 }
-@media screen and (max-width:1000px){
-img {
-    margin: 50px;
-    height: 200px;         
-    width: auto;     
-}
-h1,
-h2 {
-    font-size: 16px;
-}
 
-.image {
-    height: 30vh;
-}
+@media screen and (max-width:1000px) {
 
-.info article {
-    margin-bottom: 5px;
+    img {
+        margin: 50px;
+        height: 200px;         
+        width: auto;     
+    }
+
+    h1,
+    h2 {
+        font-size: 16px;
+    }
+
+    .image,
+    .info {
+        height: 42svh;
+    }
+
+    .info {
+        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .info article {
+        width: 90%;
+    }
+
+
 }
