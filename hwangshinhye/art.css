@@ -65,8 +65,7 @@ footer {
 
 footer nav {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
