@@ -60,11 +60,12 @@ p {
 .ment {
   font-size: 16px;
   position: absolute;
-  top: 50vh;
-  left:50vw;
-  width: 100%;
-  transform: translate(-50%,0);
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
   text-align: center;
   line-height: 1.4;
+  padding: 50px;
 }
 
