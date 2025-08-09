@@ -5,26 +5,30 @@
 	font-family: sans-serif;
 }
 
+header {
+	position: fixed;
+	top:  0;
+	width: 100%;
+}
+
 h1 {
 	font-size: 16px;
 	color: white;
-	width: 20vw;
-	padding: 10px;
+	padding: 20px;
+	text-align: center;
 }
 
-header {
-	display: inline-flex;
+nav {
 }
 
 ul {
 	display: flex;
-	display: 80vw;
+	justify-content: space-around;
 }
 
 li {
 	list-style: none;
-	width: 20vw;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 a {
@@ -42,7 +46,7 @@ body::-webkit-scrollbar {
 } 
 
 section {
-	margin-top: 50px;
+	margin-top: 120px;
 }
 
 article {
@@ -58,6 +62,10 @@ footer {
 	font-size: 10px;
 	font-family: "pretendard", sans-serif;
 }
+
+/*nav p {
+	word-break: break-all;
+}*/
 
 /*.door1 p {
 	position: fixed;
