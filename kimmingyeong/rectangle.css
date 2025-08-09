@@ -68,3 +68,11 @@ h2 {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1000px) {
+
+.box {
+  height: 50svh;
+}
+
+}
