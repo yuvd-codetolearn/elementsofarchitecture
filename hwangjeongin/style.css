@@ -1,5 +1,8 @@
 * {
     font-family: sans-serif;
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -13,10 +16,9 @@ h2 {
 }
 
 ul {
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     display: flex;
-    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -44,6 +46,10 @@ a:hover {
     opacity: 0.5;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .item {
     width: 18%;
     padding: 10px;
@@ -62,9 +68,18 @@ a:hover {
     font-size: 16px;
 }
 
+h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 .detail-link {
     text-decoration: underline;
     text-underline-offset: 2px;
+}
+
+.item-section {
+    padding: 20px; 
 }
 
 .item-section figure {
@@ -81,6 +96,11 @@ a:hover {
     width: 75%;
 }
 
+.pic,
+.picture {
+    padding-top: 50px;
+}
+
 .pic img {
     width: 50%;
 }
@@ -90,6 +110,11 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.doc {
+    padding: 20px;
+}
+
 @media screen and (max-width: 1000px) {
 
 section.item-container {
