@@ -104,8 +104,7 @@ footer {
 
 footer nav {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -120,6 +119,7 @@ footer nav a.active {
   border-bottom: 2px solid white;
   font-weight: bold;
 }
+
 .right {
     padding-left: 0;
     max-width: 100%;
@@ -133,4 +133,8 @@ footer nav a.active {
   footer p {
   color: #999;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  
 }
