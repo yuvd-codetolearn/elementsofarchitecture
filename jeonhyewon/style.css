@@ -64,6 +64,10 @@ a {
 	}
 
 	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		width: auto;
 		height: 100%;
 	}
@@ -73,18 +77,21 @@ a {
 		position: absolute;
 		top: 0;
 		left:0;
+		overflow: hidden;
 	}
 	.corridor1{
 		width: 50%;
 		position: absolute;
 		top: 0;
 		left:50%;
+		overflow: hidden;
 	}
 	.corridor2{
 		width: 50%;
 		position: absolute;
 		top: 50%;
 		left:0;
+		overflow: hidden;
 	}
 	.corridor3{
 		width: 50%;
@@ -92,10 +99,12 @@ a {
 		top: 50%;
 		left:50%;
 		right: 0;
+		overflow: hidden;
 	}
 
 	h1{
 		position: absolute;
 		top: 20px;
+		z-index: 9;
 	}
 }
